@@ -11,7 +11,7 @@ int main()
 	gets_s(s);
     printf("Entrez un caractere: ");
     scanf("%c",&c);
-	for (p = 0; p < 50; p++) {
+	for (p = 0; p < 50; p++) { // ça recherche le nombre de lettre demander et les affiche par exemple la lettre a ça affiche (aaa selon le nombre qu'il y en n'a
 		if (s[p] == c){	
 			printf("%c", s[p]);
 			m = m + 1;
