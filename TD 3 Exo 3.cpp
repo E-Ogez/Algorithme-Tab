@@ -8,7 +8,7 @@ int main()
 	int tab[27] = {};
 	printf("Entrer votre texte : ");
 	gets_s(chaine);
-	while (chaine[i] != '\0') {
+	while (chaine[i] != '\0') { // A partir de cette boucle il va chercher chaque lettre et le nombre de fois qu'elle aparait pour pouvoir les afficher à la fin le nombre de lettre qui à dans le texte
 		switch (chaine[i]) 
 		{
 
@@ -97,7 +97,7 @@ int main()
 		i++;
 	}
 
-	for (i = 0; i < 27; i++) printf("%d", tab[i]);
+	for (i = 0; i < 27; i++) printf("%d", tab[i]); // affiche le nombre de lettre selon ça position dans le tableau
 }
 
 
