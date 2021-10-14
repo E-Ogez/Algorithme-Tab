@@ -8,7 +8,7 @@ int main()
 
 	printf("Entrer votre texte : ");
 	scanf("%s", &chaine[i]);
-	while (chaine[i] != '\0' ) {
+	while (chaine[i] != '\0' ) { // a partir de cette boucle chaque caractère en majuscule sera remplacer par la lettre demander comme par exemple A deviendra a
 		if (chaine[i] == 'A')
 			chaine[i] = 'a';
 
