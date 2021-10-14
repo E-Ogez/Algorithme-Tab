@@ -8,13 +8,12 @@ int main()
 	int t, i, j;
 
 	printf(" Entrez une chaine de caractere :  ");
-	fgets(str, 25, stdin);
+	gets_s(str);
 
 	j = 0;
-	t = strlen(str)-1;
-	str[t] = '\0';
+	t = strlen(str);
 
-	for (i = t - 1; i >= 0; i--)
+	for (i = t - 1; i >= 0; i--) //ça reprend le texte sur le premier tableau pour le transferer sur le deuzième avec le texte inversée.
 	{
 		rev[j++] = str[i];
 	}
