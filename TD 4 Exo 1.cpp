@@ -6,12 +6,12 @@ int main()
 	int table[40];
 	int i, d = 0, j, tmp;
 	
-	printf("test :");
+	printf("Valeur :");
 	scanf("%d", &table[d]);
 	while (table[d] != -1 )     
 	{
 		d++;
-		printf("test :");
+		printf("Valeur :");
 		scanf("%d", &table[d]);
 	}
 	for (i = 0; i < d; ++i)
